@@ -2,6 +2,12 @@
   "name": "goflyway-heroku",
   "description": "deploy goflyway to Heroku.",
   "keywords": ["goflyway"],
+  "env": {
+    "PSW": {
+       "description": "A little ....",
+       "value": "30522b10"
+     }
+  },
   "website": "https://github.com/giegloop/goflyway-heroku",
   "repository": "https://github.com/giegloop/goflyway-heroku",
   "stack": "container"
